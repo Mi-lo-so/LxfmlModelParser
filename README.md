@@ -8,10 +8,10 @@ Reads LXFML into a model with some relevant summaries of total bricks, parts, an
 - Simple .Net Controller-based API to upload and query.
 
 # Web UI
-- See the [Web app README](https://github.com/Mi-lo-so/LxfmlModelParser/blob/main/ModelParserWebApp/README.md) for how to query the API endpoints
+- See the [Web app README](https://github.com/Mi-lo-so/LxfmlModelParser/blob/main/ModelParserWebApp/README.MD) for how to query the API endpoints
 
 # Library
-- See the [ModelParserApp library](https://github.com/Mi-lo-so/LxfmlModelParser/blob/main/ModelParserWebApp/README.md) for the services used in parsing and uploading to storage service.
+- See the [ModelParserApp library](https://github.com/Mi-lo-so/LxfmlModelParser/blob/main/ModelParserApp/README.MD) for the services used in parsing and uploading to storage service.
 
 # Storage
 Project currently only supports uploading to DynamoDB

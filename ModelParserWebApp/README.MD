@@ -19,9 +19,9 @@ This web app exposes a minimal HTTP API for:
 
 - You must be logged into an AWS account. This project is set up in `AwsServiceModule.cs` to use an account called
   `personal`, but this can be changed.
-- You can define a `personal` account in your `~/.aws/configure` with `aws configure sso --profile personal`, and set
+- You can define a `personal` account in your `~/.aws/config` with `aws configure --profile personal`, and set
   the AWS secret key and access key.
-- Then log in with `aws sso login --profile personal`
+- Then log in with `aws login --profile personal`
 - The AWS account must have rights to create/read/write to DynamoDB.
 - Run the web api, and call the `upload` endpoint locally with the file path:
 
