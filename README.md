@@ -9,7 +9,7 @@ Reads LXFML into a model with some relevant summaries, and outputs and stores th
 - Parses LXFML into an model in-memory, to output and store in a storage service.
 - Simple .Net Controller-based API to upload and query.
 
-# Web UI (example)
+# Web UI
 - See the [Web app README](https://github.com/Mi-lo-so/LxfmlModelParser/blob/main/ModelParserWebApp/README.md) for how to query the API endpoints
 
 # Library
