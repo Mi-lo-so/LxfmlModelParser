@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LXFML versionMajor="9" versionMinor="0" versionPatch="0">
+  <Bricks>
+    <Brick designID="91405" uuid="853f6d50-881b-4a00-92be-d8b0232b09e5">
+      <Part uuid="bbb9e78f-2216-4844-a849-f72cecfa9969" designID="91405" partType="rigid" materials="107:0,14:1">
+        <Bone uuid="7cdf8024-4763-445c-84b9-33c593d79ebe" transformation="1,0,0,0,1,0,0,0,1,-3.6,0.00000007882971,5.2" />
+      </Part>
+    </Brick>
+  </Bricks>
+  <Configurations>
+    <Configuration type="design" />
+  </Configurations>
+</LXFML>
