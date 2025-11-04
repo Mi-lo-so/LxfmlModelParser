@@ -1,0 +1,6 @@
+@ModelParserWebApp_HostAddress = http://localhost:5253
+
+GET {{ModelParserWebApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
