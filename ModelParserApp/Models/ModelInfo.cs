@@ -20,7 +20,6 @@ public class ModelInfo
     /// <returns></returns>
     public static ModelInfo From(List<BrickInfo> bricks, string name, string? description)
     {
-        // TODO not distinct. Multiple e.g. id: 192, layer: 0
         return new ModelInfo
         {
             Name = name,
