@@ -15,6 +15,7 @@ Reads LXFML into a model with some relevant summaries of total bricks, parts, an
 
 # Storage
 Project currently only supports uploading to DynamoDB
-<img width="1425" height="763" alt="image" src="https://github.com/user-attachments/assets/539ef9b0-146a-418d-9cc0-875e0b5b26b6" />
+<img width="1615" height="758" alt="image" src="https://github.com/user-attachments/assets/11e9cfcb-38c1-41b2-a98d-883d7179864e" />
+
 <img width="1385" height="593" alt="image" src="https://github.com/user-attachments/assets/7ae91831-070f-4843-9ded-3b5b3d774497" />
 
