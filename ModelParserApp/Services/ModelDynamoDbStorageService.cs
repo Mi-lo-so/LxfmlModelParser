@@ -9,7 +9,7 @@ namespace ModelParserApp.Services;
 
 /// <summary>
 ///     Configuration class to be used when injecting service.
-///     Defines the name of the table, and is used for fetching the correct service based on table name.
+///     Defines the name of the table and is used for fetching the correct service based on table name.
 /// </summary>
 public record ModelDynamoDbStorageConfiguration
 {
@@ -17,17 +17,6 @@ public record ModelDynamoDbStorageConfiguration
     public required string TableName { get; init; }
 }
 
-/// <summary>
-///     Interface, so the storage service can be reused for e.g. S3.
-///     Makes testing easier, and injecting different services with the same functionality.
-/// </summary>
-public interface IModelStorageService
-{
-    Task CreateOrReplaceModel(ModelInfo data, bool overwrite = true);
-    Task<List<ModelInfo>?> GetByName(string modelName);
-    Task<List<ModelInfo>?> GetByNameAndBrickCount(string modelName, int brickCount);
-    Task<List<ModelInfo>?> GetAll();
-}
 
 public class ModelDynamoDbStorageService(
     IOptions<ModelDynamoDbStorageConfiguration> configuration,
