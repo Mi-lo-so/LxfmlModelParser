@@ -1,6 +1,7 @@
 # LxfmlModelParser
 Project for parsing LXFML model files.
-Reads LXFML into a model with some relevant summaries, and outputs and stores the model in a storage service (dynamoDb).
+
+Reads LXFML into a model with some relevant summaries of total bricks, parts, and materials, and outputs and stores the model in a storage service (dynamoDb).
 
 # Features
 - Parses LXFML into an model in-memory, to output and store in a storage service.
