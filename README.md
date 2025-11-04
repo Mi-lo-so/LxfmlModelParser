@@ -1,8 +1,5 @@
 # LxfmlModelParser
-Project for parsing LXFML model files
-
-A parser project for LXFML model files.
-
+Project for parsing LXFML model files.
 Reads LXFML into a model with some relevant summaries, and outputs and stores the model in a storage service (dynamoDb).
 
 # Features
